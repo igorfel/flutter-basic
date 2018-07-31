@@ -28,7 +28,7 @@ class _DashboardPageState extends State<DashboardPage> {
         title: new Text("Welcome!"),
         actions: <Widget>[
           new IconButton(
-            icon: Icon(Icons.adb),
+            icon: Icon(Icons.account_circle),
             onPressed: _logout,
           )
         ],
