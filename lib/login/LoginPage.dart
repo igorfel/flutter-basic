@@ -34,7 +34,7 @@ class _LoginPageState extends State<LoginPage> {
             children: <Widget>[
               TextFormField(
                 keyboardType: TextInputType.emailAddress,
-                decoration: InputDecoration(hintText: "EmaAAAil"),
+                decoration: InputDecoration(hintText: "Emailasdfsdfas"),
               ),
               TextFormField(
                 keyboardType: TextInputType.text,
