@@ -39,7 +39,7 @@ class _LoginPageState extends State<LoginPage> {
               TextFormField(
                 keyboardType: TextInputType.text,
                 obscureText: true,
-                decoration: InputDecoration(hintText: "Password"),
+                decoration: InputDecoration(hintText: "Senha"),
               ),
               SizedBox(height: 30.0),
               RaisedButton(
