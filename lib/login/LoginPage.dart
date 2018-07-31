@@ -43,7 +43,7 @@ class _LoginPageState extends State<LoginPage> {
               ),
               SizedBox(height: 30.0),
               RaisedButton(
-                child: new Text("Entrar"),
+                child: new Text("Entrar....fdhd"),
                 onPressed: _dashboardScreen,
               )
             ],
