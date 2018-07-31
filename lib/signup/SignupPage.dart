@@ -35,7 +35,7 @@ class _SignupPageState extends State<SignupPage> {
               ),
               SizedBox(height: 30.0),
               RaisedButton(
-                child: new Text("okk"),
+                child: new Text("okkk"),
                 onPressed: () {},
               )
             ],
