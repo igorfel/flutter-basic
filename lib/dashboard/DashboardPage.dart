@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:test_drive/main.dart';
 
-class Dashboard extends StatefulWidget {
-  Dashboard({Key key, this.title}) : super(key: key);
+class DashboardPage extends StatefulWidget {
+  DashboardPage({Key key, this.title}) : super(key: key);
 
   final String title;
 
   @override
-  _DashboardState createState() => new _DashboardState();
+  _DashboardPageState createState() => new _DashboardPageState();
 }
 
-class _DashboardState extends State<Dashboard> {
+class _DashboardPageState extends State<DashboardPage> {
 
   void _logout() {
     Navigator.pushAndRemoveUntil(

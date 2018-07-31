@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:test_drive/dashboard/dashboard.dart';
-import 'package:test_drive/signup/signup.dart';
+import 'package:test_drive/dashboard/DashboardPage.dart';
+import 'package:test_drive/login/LoginPage.dart';
+import 'package:test_drive/signup/SignupPage.dart';
 
 void main() => runApp(new MyApp());
 
@@ -35,18 +36,14 @@ class _MyHomePageState extends State<MyHomePage> {
     //});
   }
 
-  void _changeScreen() {
+  void _signupScreen() {
     Navigator.of(context).push(
-        new MaterialPageRoute(builder: (BuildContext context) => new Signup()));
+        new MaterialPageRoute(builder: (BuildContext context) => new SignupPage()));
   }
 
-  void _login() {
-    Navigator.pushAndRemoveUntil(
-      context,
-      new MaterialPageRoute(
-          builder: (BuildContext context) => new Dashboard()),
-      (Route<dynamic> route) => false
-    );
+  void _loginScreen() {
+    Navigator.of(context).push(
+        new MaterialPageRoute(builder: (BuildContext context) => new LoginPage()));
   }
 
   @override
@@ -72,13 +69,13 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: new Text(
                         "CADASTRO",
                       ),
-                      onPressed: _changeScreen,
+                      onPressed: _signupScreen,
                     ),
                     new RaisedButton(
                       child: new Text(
                         "FAZER LOGIN",
                       ),
-                      onPressed: _login,
+                      onPressed: _loginScreen,
                     )
                   ],
                 ))
