@@ -25,10 +25,10 @@ class _DashboardPageState extends State<DashboardPage> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Bem vindo!"),
+        title: new Text("Welcome!"),
         actions: <Widget>[
           new IconButton(
-            icon: Icon(Icons.exit_to_app),
+            icon: Icon(Icons.accessibility),
             onPressed: _logout,
           )
         ],
