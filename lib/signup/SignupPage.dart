@@ -14,7 +14,7 @@ class _SignupPageState extends State<SignupPage> {
   Widget build(BuildContext context) {
     return new Scaffold(
         appBar: new AppBar(
-          title: new Text("Cadastro"),
+          title: new Text("Alterei :)"),
         ),
         body: Padding(
           padding: EdgeInsets.all(30.0),
@@ -35,7 +35,7 @@ class _SignupPageState extends State<SignupPage> {
               ),
               SizedBox(height: 30.0),
               RaisedButton(
-                child: new Text("Confirmar"),
+                child: new Text("okk"),
                 onPressed: () {},
               )
             ],
