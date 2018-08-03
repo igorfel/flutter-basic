@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:test_drive/Templates/WhatsApp/Pages/WhatsChats.dart';
-import 'package:test_drive/Templates/WhatsApp/theme.dart';
+import 'package:flutter_basic/Templates/WhatsApp/Pages/WhatsChats.dart';
+import 'package:flutter_basic/Templates/WhatsApp/theme.dart';
 
 class WhatsAppHome extends StatefulWidget {
   @override

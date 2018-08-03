@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:test_drive/Templates/WhatsApp/WhatsAppHome.dart';
-import 'package:test_drive/components/awesomeButton.dart';
-import 'package:test_drive/components/awesomeFloatingButton.dart';
+import 'package:flutter_basic/Templates/WhatsApp/WhatsAppHome.dart';
+import 'package:flutter_basic/components/awesomeButton.dart';
+import 'package:flutter_basic/components/awesomeFloatingButton.dart';
 
 void main() => runApp(new MyApp());
 

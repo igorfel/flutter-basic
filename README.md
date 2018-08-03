@@ -1,2 +1,8 @@
-# flutter-basic
-A simple flutter project for training basic features.
+# flutter_basic
+
+A new Flutter project.
+
+## Getting Started
+
+For help getting started with Flutter, view our online
+[documentation](https://flutter.io/).

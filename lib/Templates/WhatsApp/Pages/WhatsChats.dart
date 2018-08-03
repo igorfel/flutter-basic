@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_drive/Templates/WhatsApp/Components/WhatsListTile.dart';
+import 'package:flutter_basic/Templates/WhatsApp/Components/WhatsListTile.dart';
 
 class WhatsChats extends StatefulWidget {
   WhatsChats({Key key});
