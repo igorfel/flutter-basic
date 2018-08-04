@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basic/Templates/WhatsApp/Pages/WhatsChats.dart';
+import 'package:flutter_basic/Templates/WhatsApp/Pages/WhatsChatList.dart';
 import 'package:flutter_basic/Templates/WhatsApp/theme.dart';
 
 class WhatsAppHome extends StatefulWidget {
@@ -28,7 +28,7 @@ class _WhatsAppHome extends State<WhatsAppHome> {
           child: new Scaffold(
             backgroundColor: Colors.white,
             appBar: AppBar(
-              backgroundColor: Colors.teal[900],
+              backgroundColor: Colors.teal[800],
               title: Text("WhatsApp"),
               actions: <Widget>[
                 IconButton(icon: Icon(Icons.search, color: Colors.white), onPressed: () {}),
@@ -61,7 +61,7 @@ class _WhatsAppHome extends State<WhatsAppHome> {
             body: TabBarView(
               children: <Widget>[
                 Icon(Icons.photo_camera),
-                WhatsChats(),
+                WhatsChatList(),
                 Icon(Icons.history),
                 Icon(Icons.call),
               ],

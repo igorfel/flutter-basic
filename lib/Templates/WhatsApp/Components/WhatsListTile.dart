@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_basic/Templates/WhatsApp/Pages/WhatsChat.dart';
 
 class WhatsListTile extends StatelessWidget {
   WhatsListTile({this.title, this.subtitle, this.time, this.messages});
@@ -8,10 +9,14 @@ class WhatsListTile extends StatelessWidget {
   final String time;
   final int messages;
 
+  void _openChat(BuildContext context) {
+    Navigator.push(context, new MaterialPageRoute(builder: (BuildContext context) => new WhatsChat(title: "Igor Felipe",)));
+  }
+
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () {},
+      onTap: () => _openChat(context),
       child: Row(
       children: <Widget>[
         Padding(

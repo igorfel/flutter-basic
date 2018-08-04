@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_basic/Templates/WhatsApp/Components/WhatsListTile.dart';
 
-class WhatsChats extends StatefulWidget {
-  WhatsChats({Key key});
+class WhatsChatList extends StatefulWidget {
+  WhatsChatList({Key key});
 
   @override
   _WhatsChatsState createState() => new _WhatsChatsState();
 }
 
-class _WhatsChatsState extends State<WhatsChats> {
+class _WhatsChatsState extends State<WhatsChatList> {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(

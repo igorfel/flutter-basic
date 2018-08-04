@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_basic/Templates/WhatsApp/Pages/WhatsChat.dart';
 import 'package:flutter_basic/Templates/WhatsApp/WhatsAppHome.dart';
 import 'package:flutter_basic/components/awesomeButton.dart';
 import 'package:flutter_basic/components/awesomeFloatingButton.dart';
@@ -10,6 +11,7 @@ class MyApp extends StatelessWidget {
   var routes = <String, WidgetBuilder>{
     "/HomePage": (BuildContext context) => new MyHomePage(),
     "/WhatsHome": (BuildContext context) => new WhatsAppHome(),
+    "/Chat": (BuildContext context) => new WhatsChat(title: ""),
   };
 
   // This widget is the root of your application.
