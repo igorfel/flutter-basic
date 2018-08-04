@@ -28,11 +28,10 @@ class _WhatsAppHome extends State<WhatsAppHome> {
           child: new Scaffold(
             backgroundColor: Colors.white,
             appBar: AppBar(
-              backgroundColor: Colors.teal[800],
+              backgroundColor: Colors.teal[900],
               title: Text("WhatsApp"),
               actions: <Widget>[
                 IconButton(icon: Icon(Icons.search, color: Colors.white), onPressed: () {}),
-                IconButton(icon: Icon(Icons.chat, color: Colors.white), onPressed: () {}),
                 PopupMenuButton<Choice>(
                   onSelected: _selected,
                   itemBuilder: (BuildContext context) {
@@ -66,7 +65,12 @@ class _WhatsAppHome extends State<WhatsAppHome> {
                 Icon(Icons.history),
                 Icon(Icons.call),
               ],
-            )
+            ),
+            floatingActionButton: FloatingActionButton(
+              backgroundColor: Colors.greenAccent[400],
+              child: Icon(Icons.chat),
+              onPressed: () {},
+            ),
           ),
         ),
       );
